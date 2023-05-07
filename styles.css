@@ -36,25 +36,13 @@ a:link, a:visited {
 
 .introduction {
     font-family: 'Monoton', cursive;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .heading {
     font-family: 'Jura', sans-serif;
     font-size: 50px;
     font-weight: bolder;
-}
-
-.right {
-    float: right;
-    border-radius: 15px;
-    border: 3px solid rgb(83, 67, 83);
-    margin-left: 1%; 
-    max-width: 400px;
-}
-
-.clearFloat {
-	clear: both;
 }
 
 /*classes and skills section*/
