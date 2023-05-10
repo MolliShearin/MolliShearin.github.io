@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Author: Molli Shearin
+        Project: About a Company
+        Date: 3-4-2023-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/4044bdbe52.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Creepster&family=Homemade+Apple&family=Monoton&family=Montserrat+Subrayada&family=Nosifer&family=Princess+Sofia&family=Tilt+Prism&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Menu</a>
+        <a href="schedule.html">Contact Us</a>
+        <a href="video.html">Adoptables</a>
+    </nav>
+    <h2>Contact Us!</h2>
+    <div class="ContactUs">
+        <form action="thankyou.html" method="get">
+            <div>
+                <p>Preferred Method of Contact:</p>
+                <input type="radio" id="phone" name="contact" value="phone">
+                  <label for="phone">Phone</label>
+                  <input type="radio" id="email" name="contact" value="email">
+                  <label for="email">Email</label><br>
+
+                <!--name-->
+                <label for="FirstName">First Name:
+                    <input type="text" name="FirstName" id="FirstName" placeholder="Enter Your First Name" autofocus
+                        required>
+                </label><br>
+                <label for="LastName">Last Name:
+                    <input type="text" name="LastName" id="LastName" placeholder="Enter Your Last Name">
+                </label><br>
+                <!--phone number-->
+                <label for="PhoneNumber">Phone Number:
+                    <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="Enter Your Phone Number">
+                </label><br>
+                <!--email-->
+                <label for="EnteredEmail">Email:
+                    <input type="email" name="EnteredEmail" id="EnteredEmail" placeholder="Enter Your Email">
+                </label><br>
+
+                <!--interests-->
+                <p>Select what you're interested in:</p>
+                <input type="checkbox" id="Catering" name="Catering" value="Catering">
+                <label for="Catering">Catering</label><br>
+                <input type="checkbox" id="Ordering" name="Ordering" value="Ordering">
+                <label for="Ordering">Online Ordering</label><br>
+                <input type="checkbox" id="Coupons" name="Coupons" value="Coupons">
+                <label for="Coupons">Deals and Coupons</label><br>
+                <input type="checkbox" id="Adoptions" name="Adoptions" value="Adoptions">
+                <label for="Adoptions">Cat Adoptions</label><br>
+
+                <!--comment section -->
+                <p>Please leave a comment:</p>
+                <label for="Comments"></label>
+                <textarea id="Comments" name="Comments" rows="4" cols="50">
+                </textarea><br>
+
+                <!--submit button-->
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="ContactInfo">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fa-brands fa-square-twitter"></i>
+            </a>
+            <a href="tel:+" target="_blank">
+                <i class="fa-solid fa-square-phone"></i>
+            </a>
+            <a href="mailto:whiskerscoffehouse@gmail.com" target="_blank">
+                <i class="fa-solid fa-square-envelope"></i>
+            </a>
+        </div>
+        <p class="footer">&copy; 2023 Shearin Designs, Inc &#9774;</p>
+    </footer>
+</body>
+
+</html>
