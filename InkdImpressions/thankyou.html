@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!--Author: Molli Shearin
+    Class: Web Dev 1, Spring 2023
+    Final Project
+    -->
+  <meta charset="utf-8">
+  <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+    <title>Ink'd Impressions | Thank you!</title>
+    <script src="https://kit.fontawesome.com/4044bdbe52.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+    <!--Logo-->
+    <div class="logocontainer">
+        <!--logo image-->
+    </div>
+    <!--Navigation bar-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="store.html">Our Store</a>
+        <a href="contactus.html">Contact Us</a> 
+    </nav>
+  
+  <!--Thank you text-->
+  <div class="thankyoucontainer">
+    <h1>Thank you for contacting us! Please expect a response within 24 hours.</h1>
+
+    <script>
+      printQuery();
+    </script>
+  </div>
+ <!--Footer-->
+  <footer>
+    <div class="footerbanner" style="position: absolute; bottom: 0;">
+        <p style="text-align: center; color: white;">&copy; 2023 Shearin Designs, Inc &#9774;</p>
+        <a href="http://facebook.com/nixascreenprinting/" target="_blank">
+            <i class="fa-brands fa-square-facebook fbicon"></i>
+        </a>
+        <i class="fa-brands fa-square-instagram instaicon"></i>
+        <div class="footershape">
+            <p class="footer">
+                Ink'd
+            </p>
+        </div>
+        <div class="footercontact">
+            <p class="footercontacttext">
+                1700 W. Walnut St. Springfield, MO 65806<br>417-920-4962<br>info@inkdimpressions.com
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+</body>
+
+</html>

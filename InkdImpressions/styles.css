@@ -1,0 +1,341 @@
+* {
+    margin: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logocontainer {
+    background-color: #343434;
+    padding: 2%;
+    text-align: center;
+}
+
+nav {
+    background-color: #ec5c24;
+    /* font-size: 1.25vw; */
+    font-size: 25px;
+    text-align: center;
+    /* padding-left: 6%;
+    padding-right: 6%; */
+    border-bottom: 20px solid #343434;
+    /* text-shadow: 1px 1px 1px #343434; */
+    
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color: #343434;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+    
+  }
+  
+  a:hover, a:active {
+    background-color: #343434;
+    color: white;
+    border-radius: 20px;
+    
+    
+  } 
+
+  .mainimage {
+    width:100%;
+    height:600px;
+    object-fit: cover;
+    
+    /* border-bottom: 50px solid #343434; */
+    /* box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 30px 60px 0 rgba(0, 0, 0, 0.19); */
+  }
+
+  .mainpgtext {
+    text-align: center;
+    color: #343434;
+    padding-top: 1%;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+  /*Grid with shirt images*/
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 3%;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20%;
+    box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.2), 0 30px 30px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of three columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  /*Footer*/
+  .footerbanner {
+    position: relative;
+    height: 8vw;
+    width: 100%;
+    /* bottom: 0px; */
+    background-color: #343434; 
+    
+    margin-top: 2%;
+    text-align: center;
+}
+
+.fbicon {
+    position: absolute;
+    /* height: 4vw;
+    width: auto; */
+    left: 6vw;
+    top: 2vw;
+    background-color: white;
+    padding: 1%; 
+    font-size: 2.5vw;
+    color: #343434;
+    border-radius: 10px;
+}
+
+.instaicon {
+    position: absolute;
+    /* height: 4vw;
+    width: auto; */
+    left: 12vw; 
+    top: 2vw;
+    background-color: white;
+    padding: 1%; 
+    font-size: 2.5vw;
+    color: #343434;
+    border-radius: 10px;
+}
+
+.footerlogo {
+    position: absolute;
+    height: auto;
+    width: 8vw; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 2vw; 
+    
+     
+}
+
+/* .footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    color: #343434;
+} */
+
+.footercontact {
+    position: absolute;
+    right: 3vw;
+    top: 1.75vw;
+}
+
+.footercontacttext {
+    font-size: 1vw;
+    color: white;
+    text-decoration: 3px underline #ec5c24;
+}
+
+.formerlyname {
+    background-color: #343434;
+    padding: 2%;
+    margin: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+/*Our Store Page*/
+.storecomingsoon {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-decoration: underline;
+}
+
+/* Services List */
+.servicescontainer {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.servicecontainer {
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    background-color: #343434;
+    /* border: 3px solid #f0482c; */
+    color: white;
+    /* box-shadow: 10px 10px 2px #676767; */
+    box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 30px 60px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+.servicedescriptioncontainer {
+    padding-top: 10%;
+}
+.serviceimagecontainer {
+    height: 175px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.serviceimage {
+    width: 150px;
+}
+
+/*About Us Page*/
+.aboutustext {
+    text-align: center;
+    color: #343434;
+    padding-top: 1%;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+
+
+.machine {
+    margin-left: 50%;
+    transform: translate(-50%, 0%); 
+    width: 500px;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 30px 60px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+
+/*Contact Us Page*/
+.contactuscontainer {
+    text-align: center;
+    margin-top: 3%;
+    
+}
+
+.contactus {
+    margin-top: 1%;
+    line-height: 40px;
+    margin-bottom: 5%;
+    background-color:#3434343b;
+    padding: 20px;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    width: 40%;
+    border-radius: 30px;
+}
+
+input[type=submit] {
+    background-color: #343434;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+
+  input[type=submit]:hover {
+    color: #ec5c24;
+  }
+
+  .googlemap {
+    width: 40%;
+    height: 500px;
+    border: 20px solid #343434;
+    /* margin-left: 50%;
+    transform: translate(-50%, 0);  */
+    margin-bottom: 5%;
+    border-radius: 30px;
+    margin-top: 5%;
+  }
+
+
+  /* Services List */
+.informationcontainer {
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.infocontainer {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  /* background-color: #343434; */
+  /* border: 3px solid #f0482c; */
+  color: #343434;
+  /* box-shadow: 10px 10px 2px #676767; */
+  /* box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 30px 60px 0 rgba(0, 0, 0, 0.19); */
+  /* border-radius: 30px; */
+}
+
+.infodescriptioncontainer {
+  padding-top: 10%;
+}
+.infoimagecontainer {
+  height: 75px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.infoimage {
+  width: 75px;
+}
+
+.printingservice {
+  text-align: center;
+}
+
+
+.previousworks {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.thankyoucontainer {
+  text-align: center;
+  margin-top: 5%;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Author: Molli Shearin
+    Class: Web Dev 1, Spring 2023
+    Final Project
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink'd Impressions | Contact Us</title>
+    <script src="https://kit.fontawesome.com/4044bdbe52.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Logo-->
+    <div class="logocontainer">
+        <img src="inkdlogo.png" alt="Ink'd Impressions Logo" width="300">
+    </div>
+    <!--Navigation bar-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="store.html">Our Store</a>
+        <a href="contactus.html">Contact Us</a> 
+    </nav>
+    <!--Contact Info Form-->
+    <div class="contactuscontainer">
+        <h1>Got a question? Interested in a quote? Send us a message!</h1>
+        <div class="contactus">
+          <form action="thankyou.html" method="get">
+            
+              <div>
+                  <!--name-->
+                  <label for="FirstName">First Name <br>
+                      <input type="text" name="FirstName" id="FirstName" placeholder="Enter Your First Name" style="width: 150px;" autofocus
+                          required>
+                  </label><br>
+                  <label for="LastName">Last Name <br>
+                      <input type="text" name="LastName" id="LastName" placeholder="Enter Your Last Name" style="width: 150px;">
+                  </label><br>
+                  <!--email-->
+                  <label for="EnteredEmail">Email <br>
+                      <input type="email" name="EnteredEmail" id="EnteredEmail" placeholder="Enter Your Email" style="width: 150px;">
+                  </label><br>
+                  <!--phone number-->
+                  <label for="PhoneNumber">Phone Number <br>
+                      <input type="tel" name="PhoneNumber" id="PhoneNumber" placeholder="Enter Your Phone Number" style="width: 175px;">
+                  </label><br>
+                  <!--method of contact-->
+                  <p>Preferred Method of Contact:</p>
+                    <input type="radio" id="phone" name="contact" value="phone">
+                    <label for="phone">Phone</label>
+                    <input type="radio" id="email" name="contact" value="email">
+                    <label for="email">Email</label><br>
+                 
+                  <!--comment section-->
+                <p>What can we do for you?</p>
+                <label for="Comments"></label>
+                <textarea id="Comments" name="Comments" style="width: 80%;"></textarea><br>
+                  <!--submit button-->
+                  <input type="submit" value="Submit">
+              </div>
+          </form>  
+      </div>
+    </div>
+      <!--Contact Info-->
+      <h3 style="text-align: center";>On a tight timeline? Give us a call directly, stop by the shop, or email us directly. If we miss you, we'll get back to you as soon as possible!</h3>
+
+      <div class="informationcontainer">
+        
+        <div class="infocontainer">
+            
+            <div class="infoimagecontainer">
+                
+                <img src="phone.png" alt="Phone image" class="infoimage">
+                
+
+            </div>
+            <a href="tel:4179204962">
+            <div class="infodescriptioncontainer">
+                <h2>Phone</h2>
+                <p>417-920-4962</p>
+                <p style="color: white">Call Us</p>
+            </div>
+        </a>
+        </div>
+    
+        <div class="infocontainer">
+            <div class="infoimagecontainer">
+                <img src="location.png" alt="Location image" class="infoimage">
+            </div>
+            <div class="infodescriptioncontainer">
+                <h2>Address</h2>
+                <p>1700 W. Walnut St.</p>
+                <p>Springfield, MO 65806</p>
+            </div>
+        </div>
+        <div class="infocontainer">
+            <div class="infoimagecontainer">
+                <img src="email.png" alt="Email image" class="infoimage">
+            </div>
+            <a href="mailto:info@inkdimpressions.com">
+            <div class="infodescriptioncontainer">
+                <h2>Email</h2>
+                <p>info@inkdimpressions.com</p>
+                <p style="color: white">Email Us</p>
+            </div>
+        </a>
+        </div>
+    </div>
+        <!--Google Map-->
+      <div class="googlemap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.7166060972886!2d-93.31627448469861!3d37.20696007986686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf63b4a2fc1af7%3A0x62a20385a344ecd!2s1700%20W%20Walnut%20St%2C%20Springfield%2C%20MO%2065806!5e0!3m2!1sen!2sus!4v1682822855664!5m2!1sen!2sus" style="border:0; height: 100%; width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--Formerly Nixa Screen Printing-->
+    <div class="formerlyname">
+        <p>Formerly Nixa Screen Printing</p>
+      </div>
+      <!--Footer-->
+      <footer>
+        <div class="footerbanner">
+            <img src="inkdlogo.png" alt="Ink'd Impressions Logo" class="footerlogo">
+                <i class="fa-brands fa-square-facebook fbicon"></i>
+            </a>
+            <i class="fa-brands fa-square-instagram instaicon"></i>
+           
+            <div class="footercontact">
+                <p class="footercontacttext">
+                    1700 W. Walnut St. Springfield, MO 65806<br><a href="tel:4179204962" style="color: white; text-decoration: 3px underline #ec5c24;">417-920-4962</a><br><a href="mailto:info@inkdimpressions.com" style="color: white; text-decoration: 3px underline #ec5c24;">info@inkdimpressions.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
